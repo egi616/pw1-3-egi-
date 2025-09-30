@@ -1,3 +1,170 @@
 Egi jaelani febriansyah
 IF B 24
 5520124039
+
+Microsoft Windows [Version 10.0.19045.5854]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Jarkom-14\Documents\web_ejae>git init
+Initialized empty Git repository in C:/Users/Jarkom-14/Documents/web_ejae/.git/
+
+C:\Users\Jarkom-14\Documents\web_ejae>git add .
+
+C:\Users\Jarkom-14\Documents\web_ejae>git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   egi.txt
+
+
+C:\Users\Jarkom-14\Documents\web_ejae>git commit -m "menambahkan identitas egi.txt"
+[main (root-commit) 16abdc5] menambahkan identitas egi.txt
+ 1 file changed, 3 insertions(+)
+ create mode 100644 egi.txt
+
+C:\Users\Jarkom-14\Documents\web_ejae>git add .
+
+C:\Users\Jarkom-14\Documents\web_ejae>git status
+On branch main
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   egi.txt
+
+
+C:\Users\Jarkom-14\Documents\web_ejae>git commit -m "merubah identitas penambahan hobi"
+[main 8914efe] merubah identitas penambahan hobi
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+C:\Users\Jarkom-14\Documents\web_ejae>git log
+commit 8914efe9fb887d25db021d251936c5b58177ffec (HEAD -> main)
+Author: Egi <egijaelani1010@gmail.com>
+Date:   Tue Sep 30 11:25:08 2025 +0700
+
+    merubah identitas penambahan hobi
+
+commit 16abdc57461f0a0a48a4cba360334e37826d6c9d
+Author: Egi <egijaelani1010@gmail.com>
+Date:   Tue Sep 30 11:22:08 2025 +0700
+
+    menambahkan identitas egi.txt
+
+C:\Users\Jarkom-14\Documents\web_ejae>git checkout 16abdc57461f0a0a48a4cba360334e37826d6c9d
+Note: switching to '16abdc57461f0a0a48a4cba360334e37826d6c9d'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 16abdc5 menambahkan identitas egi.txt
+
+C:\Users\Jarkom-14\Documents\web_ejae>git log
+commit 16abdc57461f0a0a48a4cba360334e37826d6c9d (HEAD)
+Author: Egi <egijaelani1010@gmail.com>
+Date:   Tue Sep 30 11:22:08 2025 +0700
+
+    menambahkan identitas egi.txt
+
+C:\Users\Jarkom-14\Documents\web_ejae>git remote add origin https://github.com/egi616/pw1-3-egi-.g
+
+C:\Users\Jarkom-14\Documents\web_ejae>git branch
+* (HEAD detached at 16abdc5)
+  main
+
+C:\Users\Jarkom-14\Documents\web_ejae>git push -u origin main
+info: please complete authentication in your browser...
+remote: Repository not found.
+fatal: repository 'https://github.com/egi616/pw1-3-egi-.g/' not found
+
+C:\Users\Jarkom-14\Documents\web_ejae>git push -u origin main
+info: please complete authentication in your browser...
+remote: Repository not found.
+fatal: repository 'https://github.com/egi616/pw1-3-egi-.g/' not found
+
+C:\Users\Jarkom-14\Documents\web_ejae>git remote add origin https://github.com/egi616/pw1-3-egi-.g
+error: remote origin already exists.
+
+C:\Users\Jarkom-14\Documents\web_ejae>git remote add origin https://github.com/egi616/pw1-3-egi-.g
+error: remote origin already exists.
+
+C:\Users\Jarkom-14\Documents\web_ejae>git remote set-url origin https://github.com/egi616/pw1-3-egi-.g
+
+C:\Users\Jarkom-14\Documents\web_ejae>git remote add origin  https://github.com/egi616/pw1-3-egi-.g
+error: remote origin already exists.
+
+C:\Users\Jarkom-14\Documents\web_ejae>git push -u origin main
+info: please complete authentication in your browser...
+remote: Repository not found.
+fatal: repository 'https://github.com/egi616/pw1-3-egi-.g/' not found
+
+C:\Users\Jarkom-14\Documents\web_ejae>git remote set-url
+usage: git remote set-url [--push] <name> <newurl> [<oldurl>]
+   or: git remote set-url --add <name> <newurl>
+   or: git remote set-url --delete <name> <url>
+
+    --[no-]push           manipulate push URLs
+    --[no-]add            add URL
+    --[no-]delete         delete URLs
+
+
+C:\Users\Jarkom-14\Documents\web_ejae>git remote set-url --delete
+usage: git remote set-url [--push] <name> <newurl> [<oldurl>]
+   or: git remote set-url --add <name> <newurl>
+   or: git remote set-url --delete <name> <url>
+
+    --[no-]push           manipulate push URLs
+    --[no-]add            add URL
+    --[no-]delete         delete URLs
+
+
+C:\Users\Jarkom-14\Documents\web_ejae>git remote add origin https://github.com/egi616/pw1-3-egi-.git
+error: remote origin already exists.
+
+C:\Users\Jarkom-14\Documents\web_ejae>git remote remove origin
+
+C:\Users\Jarkom-14\Documents\web_ejae>git remote add origin https://github.com/egi616/pw1-3-egi-.git
+
+C:\Users\Jarkom-14\Documents\web_ejae>git push -u origin main
+info: please complete authentication in your browser...
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (6/6), 538 bytes | 538.00 KiB/s, done.
+Total 6 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/egi616/pw1-3-egi-.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+C:\Users\Jarkom-14\Documents\web_ejae>git branch cabang_egi
+
+C:\Users\Jarkom-14\Documents\web_ejae>git branch
+* (HEAD detached at 16abdc5)
+  cabang_egi
+  main
+
+C:\Users\Jarkom-14\Documents\web_ejae>git checkout -b cabang_egi
+fatal: a branch named 'cabang_egi' already exists
+
+C:\Users\Jarkom-14\Documents\web_ejae>git checkout cabang_egi
+M       egi.txt
+Switched to branch 'cabang_egi'
+
+C:\Users\Jarkom-14\Documents\web_ejae>git branch
+* cabang_egi
+  main
+
+C:\Users\Jarkom-14\Documents\web_ejae>
